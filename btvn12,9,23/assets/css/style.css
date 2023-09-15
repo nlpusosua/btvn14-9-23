@@ -1,0 +1,116 @@
+
+*{
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:white;
+
+}
+
+
+.body{
+    position: relative;
+}
+.card{
+    width: 450px;
+    height: 600px;
+    background-color: white;
+    box-shadow: 1px 3px 14px -2px black;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.topcard{
+    width: 100%;
+    
+    background-color: white;
+    display: flex;
+    padding: 15px;
+    
+}
+.topleft{
+    width:15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.center{
+    width: 70%;
+    height: 100%;
+    background-color:white;
+    list-style: none;
+}
+.topright{
+    width: 15%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topleft i{
+    font-size: 55px;
+}
+.topright i{
+    font-size: 35px;
+    
+}
+.imgcard{
+    height: 300px;
+}
+.imgcard img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+
+}
+.text{
+    font-size: 25px;
+    margin: 5px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+}
+.icon{
+    display: flex;
+    align-items:baseline;
+    margin-bottom: auto;
+    
+    
+
+}
+.icright ul i{
+    font-size: 30px;
+    margin-left: 125px;
+}
+.main text{
+    
+    width: 100%;
+    
+}
+.icon .icleft {
+    width: 50%;
+    height: 100%;
+
+
+}
+.icright {
+    width: 50%;
+    height: 100%;
+    
+}
+.icleft ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 15px; 
+    font-size: 30px;
+}
+.icleft ul li i{
+    padding: 10px;
+}
+
+
